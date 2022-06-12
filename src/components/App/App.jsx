@@ -32,6 +32,9 @@ function App() {
       <header className="App-header">
         <h1 className="App-title">Gallery of My Life</h1>
       </header>
+      <h2>My Gallery</h2>
+      <h4>Click on the picture to see the description.</h4>
+      <h4>Click again to see the picture.</h4>
       <GalleryList
         // Pass props to GalleryList component
         // need galleryItems and fetchPhotoItem()

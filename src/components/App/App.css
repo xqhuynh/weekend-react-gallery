@@ -3,13 +3,47 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(51, 83, 210);
   padding: 1em;
   color: white;
   margin-bottom: 1em;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 25px 25px;
+  justify-content: center;
+}
+
+.like-button {
+  width: 80px;
+  height: 25px;
+  margin-top: 20px;
+  background-color: rgb(60, 86, 234);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  background-color: rgb(112, 127, 216);
+}
+
+.picture,
+.description {
+  cursor: pointer;
+}
+
+.description {
+  width: 200px;
+  height: 100px;
+  padding: 100px 20px 20px 20px;
+}

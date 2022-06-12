@@ -32,19 +32,25 @@ function GalleryItem({ item, fetchPhotoItem }) {
       <div>
         {/* Conditional rendering to toggle disply of image and description */}
         {displayPhoto ? (
-          <img onClick={togglePhoto} src={item.path} />
+          <img className="picture" onClick={togglePhoto} src={item.path} />
         ) : (
-          <p onClick={togglePhoto}>{item.description}</p>
+          <p className="description" onClick={togglePhoto}>
+            {item.description}
+          </p>
         )}
 
         {/* 'Love it' button */}
-        <button onClick={addLikes}>Love It!</button>
-        {/* Conditional rendering for 'Love It' button */}
-        {item.likes !== 0 ? (
-          <p>{item.likes} people love this!</p>
-        ) : (
-          <p>No people love this!</p>
-        )}
+        <div>
+          <button className="like-button" onClick={addLikes}>
+            Love It!
+          </button>
+          {/* Conditional rendering for 'Love It' button */}
+          {item.likes !== 0 ? (
+            <p>{item.likes} people love this!</p>
+          ) : (
+            <p>No people love this!</p>
+          )}
+        </div>
       </div>
     </>
   );
