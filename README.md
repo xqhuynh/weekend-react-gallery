@@ -27,6 +27,9 @@ This project requires npm client and server to be ran simultaneously.
 
 <img width="1400" alt="Screen Shot 2022-06-12 at 5 31 43 PM" src="https://user-images.githubusercontent.com/77410880/173256230-de453b55-ac1c-4ede-8a2a-b262196d2ec4.png">
 
+<img width="1350" alt="Screen Shot 2022-06-13 at 9 09 16 PM" src="https://user-images.githubusercontent.com/77410880/173478607-f41facc9-0130-4c17-81b7-17dab7843e52.png">
+
+
 
 ### Prerequisites
 
