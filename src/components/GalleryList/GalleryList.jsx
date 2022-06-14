@@ -9,6 +9,8 @@ function GalleryList({ galleryItems, fetchPhotoItem }) {
           and pass props to GalleryItem component.
           Set key={item.id} to use for axios PUT*/}
       <section>
+        {/* Curly braces after arrow means returning something
+        Parentheses won't return. (item) => () vs {} */}
         {galleryItems.map((item) => (
           <GalleryItem
             key={item.id}

@@ -29,14 +29,16 @@ function GalleryItem({ item, fetchPhotoItem }) {
 
   return (
     <>
-      <div>
+      <div className="photo-container">
         {/* Conditional rendering to toggle disply of image and description */}
         {displayPhoto ? (
           <img className="picture" onClick={togglePhoto} src={item.path} />
         ) : (
-          <p className="description" onClick={togglePhoto}>
-            {item.description}
-          </p>
+          <div className="description">
+            <p className="description-text" onClick={togglePhoto}>
+              {item.description}
+            </p>
+          </div>
         )}
 
         {/* 'Love it' button */}

@@ -43,7 +43,18 @@ section {
 }
 
 .description {
-  width: 200px;
-  height: 100px;
-  padding: 100px 20px 20px 20px;
+  display: flex;
+  width: 375px;
+  height: 250px;
+  border: solid 1px white;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 174, 220);
+}
+
+.description-text {
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 20px;
+  font-size: 1.1rem;
 }
