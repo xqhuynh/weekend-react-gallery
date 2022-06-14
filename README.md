@@ -10,14 +10,38 @@ This project requires npm client and server to be ran simultaneously.
 
 ## Structure
 ```
-├── INSTRUCTIONS.md
-├── README.md
 ├── package-lock.json
 ├── package.json
 ├── public
+│   ├── favicon.ico
+│   ├── images
+│   │   ├── friends.JPEG
+│   │   ├── goat_small.jpg
+│   │   ├── golf.jpeg
+│   │   ├── hawaii.JPG
+│   │   ├── me.jpeg
+│   │   ├── nina.jpg
+│   │   ├── thanksgiving.JPG
+│   │   └── wedding.JPG
+│   ├── index.html
+│   └── manifest.json
 ├── server
-├── src
-└── wireframes
+│   ├── modules
+│   │   └── gallery.data.js
+│   ├── routes
+│   │   └── gallery.router.js
+│   └── server.js
+└── src
+    ├── components
+    │   ├── App
+    │   │   ├── App.css
+    │   │   └── App.jsx
+    │   ├── GalleryItem
+    │   │   └── GalleryItem.jsx
+    │   └── GalleryList
+    │       └── GalleryList.jsx
+    ├── index.css
+    └── index.js
 ```
 
 - src folder - contains react components
